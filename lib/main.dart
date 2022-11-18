@@ -20,6 +20,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: bgColor,
       ),
+      routes: {
+        MainMenuScreen.routeName: (context) => const MainMenuScreen(),
+      },
       home: const MainMenuScreen(),
     );
   }
