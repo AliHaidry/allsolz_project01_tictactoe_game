@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:allsolz_tictactoe_game/utils/colors.dart';
 import 'package:allsolz_tictactoe_game/screens/main_menu_screen.dart';
+import 'package:allsolz_tictactoe_game/screens/create_room_screen.dart';
+import 'package:allsolz_tictactoe_game/screens/join_room_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,8 +24,11 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         MainMenuScreen.routeName: (context) => const MainMenuScreen(),
+        JoinRoomScreen.routeName: (context) => const JoinRoomScreen(),
+        CreateRoomScreen.routeName: (context) => const CreateRoomScreen()
+
       },
-      home: const MainMenuScreen(),
+      initialRoute: MainMenuScreen.routeName,
     );
   }
 }
