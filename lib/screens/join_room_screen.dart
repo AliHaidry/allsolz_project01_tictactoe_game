@@ -44,7 +44,7 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
                     color: Colors.blue,
                   ),
                 ], text: 'Join Room', fontSize: 70),
-                SizedBox(height: size.height * 0.08),
+                SizedBox(height: size.height * 0.04),
                 CustomTextField(
                     controller: _nameController, hintText: 'Enter your name'),
                 const SizedBox(height: 20),

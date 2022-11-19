@@ -41,7 +41,7 @@ class _CreateRoomScreenState extends State<CreateRoomScreen> {
                     color: Colors.blue,
                   ),
                 ], text: 'Create Room', fontSize: 70),
-                SizedBox(height: size.height * 0.08),
+                SizedBox(height: size.height * 0.04),
                 CustomTextField(
                     controller: _nameController, hintText: 'Enter your name'),
                 SizedBox(height: size.height * 0.045),
